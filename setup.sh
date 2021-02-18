@@ -16,7 +16,7 @@ echo "-----> SA Downloaded"
 echo "-----> Download Gclone Config"
 cd ~
 mkdir -p /root/.config/rclone/
-wget "https://raw.githubusercontent.com/thinhplust/jdownloads/main/rclone.conf" -O /root/.config/rclone/rclone.conf
+wget "https://raw.githubusercontent.com/thinhplust/gclone/main/rclone.conf" -O /root/.config/rclone/rclone.conf
 echo "-----> Gclone Config successfully"
 
 echo "-----> Install Tmux"
